@@ -162,10 +162,10 @@ func main() {
 	//houses, err := readCSV("house_prices.csv")
 	//https://github.com/parzzd/ta3/blob/main/house_prices.csv
 	//https://raw.githubusercontent.com/parzzd/ta3/main/house_prices.csv
-    //--------------------------------------------------------------------
 
 
-	url := "https://raw.githubusercontent.com/parzzd/ta3/main/house_prices.csv"
+
+	
 
 	/*
 	// Realizar la solicitud HTTP para obtener el contenido del archivo CSV
@@ -200,6 +200,9 @@ func main() {
 
 	//LINEAS AGREGADAS
 
+
+	url := "https://raw.githubusercontent.com/parzzd/ta3/main/house_prices.csv"
+
 	// Realizar la solicitud HTTP para obtener el contenido del archivo CSV
 	resp, err := http.Get(url)
 	if err != nil {
@@ -208,10 +211,10 @@ func main() {
 	defer resp.Body.Close()
 
 
-	// Leer el contenido del archivo CSV
+	// Lee CSV
 	reader := csv.NewReader(resp.Body)
 
-	// Leer todas las filas del CSV
+	// Lee todas las filas del CSV
 	records, err := reader.ReadAll()
 	if err != nil {
 		log.Fatal("Error al leer el archivo CSV:", err)
