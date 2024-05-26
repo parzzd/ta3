@@ -1,15 +1,11 @@
-# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
-
-![Texto alternativo]( https://iconape.com/wp-content/png_logo_vector/universidad-peruana-de-ciencias-aplicadas-upc-logo.png)
-
-
-
-
-
-
-
-
+# **PROGRAMACIÓN CONCURRENTE Y DISTRIBUIDA**
 # **TAREA ACADEMICA #3**
+
+![logo ](https://cachimbo.pe/wp-content/uploads/2022/10/1-7.jpg)
+
+
+
+
 
 ## Integrantes:
 
